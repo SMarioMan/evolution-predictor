@@ -1,0 +1,31 @@
+# config.yaml
+
+# Number of training epochs
+epochs: 1000
+
+# Batch size for training
+batch_size: 16
+
+# Learning rate for the optimizer (Adam)
+lr: 0.0002
+
+# Weight for the cycle consistency loss component
+lambda_cycle: 0.2
+
+# The sub-path to find the sprites
+sprite_type_path: 'home/normal/1x'
+
+# Image size for training and generation (assumes square images)
+# Max size is 128x128 for now.
+image_size: 128
+
+# Example selections for different sprite paths:
+
+# sprite_type_path: 'home/normal/1x'
+# image_size: 128
+
+# sprite_type_path: 'crystal/normal'
+# image_size: 56
+
+# sprite_type_path: 'black-white/normal'
+# image_size: 96
