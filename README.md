@@ -49,9 +49,9 @@ NOTE: [`train.py`](train.py) and [`dual_pix2pix_pipeline.py`](models/dual_pix2pi
 ## Generate:
 
 ```bash
-python3 predict.py --input <path to input image> --output <path to input image> --direction forward
+python3 predict.py --input <path to input image> --output <path to output image> --direction forward
 # Or
-python3 predict.py --input <path to input image> --output <path to input image> --direction backward
+python3 predict.py --input <path to input image> --output <path to output image> --direction backward
 ```
 
 ## Alternatives
