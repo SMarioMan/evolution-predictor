@@ -2,7 +2,7 @@
 
 An attempt to use ML to synthesize new evolutions and baby Pokémon by identifying existing patterns in evolution data.
 
-This work was inspired by [Uppestcase and Lowestcase Letters [advances in derp learning]](https://youtu.be/HLRdruqQfRk).
+This work was inspired by [Tom7](http://tom7.org/)'s [Uppestcase and Lowestcase Letters [advances in derp learning]](https://youtu.be/HLRdruqQfRk).
 
 In practice, the generated evolutions can sometimes have compelling portraits, but the actual color data is nearly always a mess.
 
@@ -28,8 +28,10 @@ All sprites from all generations of games are downloaded, but the script can be 
 
 ## Download evolutionary lines:
 
-Normally not needed, as they are already provided in [evolution_lines.py](evolution_lines.py). Use this only if new Pokémon are released, to update [evolution_lines.py](evolution_lines.py). Output is printed to screen and must be carefully transferred over. 
-It does not simply override the file because iot may be desirable to add custom evolutionary line data, such as for Mega Evolutions and Gigantamax forms.
+Normally not needed, as they are already provided in [evolution_lines.py](evolution_lines.py).
+Use this only if new Pokémon are released, to update [evolution_lines.py](evolution_lines.py).
+Output is printed to screen and must be carefully transferred over. 
+It does not simply override the file because it may be desirable to add custom evolutionary line data, such as for Mega Evolutions and Gigantamax forms.
 ```bash
 pip install requests
 python3 make_evolution_lines.py
